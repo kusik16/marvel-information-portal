@@ -107,8 +107,6 @@ const CharList = (props) => {
         // eslint-disable-next-line
     }, [process])
 
-    // TransitionGroup работать не будет за счет постоянного пересоздания компонента
-    // разбор в следующем уроке
     return (
         <div className="char__list">
             {elements}
